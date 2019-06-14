@@ -14,8 +14,8 @@ import android.view.ViewGroup;
  */
 public class MondrianLayout extends ViewGroup {
 
-    private  int columns = 6;
-    private int rows = 4;
+    private  int columns = 8;
+    private int rows = 3;
     private  int borderRatio = 9;
 
     private int cellWidth;
