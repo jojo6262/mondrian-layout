@@ -37,6 +37,12 @@ public class MondrianLayout extends ViewGroup {
         setAttrs(attrs);
 
     }
+    
+    public MondrianLayout(Context context,int column ,int row){
+        super(context);
+        this.column = column;
+        this.row=row;
+    }
 
     private void setAttrs(AttributeSet attrs) {
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.MondrianLayout);
